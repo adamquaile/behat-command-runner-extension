@@ -1,0 +1,23 @@
+{
+    "name": "adamquaile/behat-command-runner-extension",
+    "description": "Extension to run commands at hooks in test lifecycle",
+    "type": "library",
+    "autoload": {
+        "psr-0": {
+            "AdamQuaile\\Behat\\CommandRunnerExtension": "src/"
+        }
+    },
+    "require": {
+        "behat/behat": "~3.0",
+        "symfony/process": "*"
+    },
+    "authors": [
+        {
+            "name": "Adam Quaile",
+            "email": "adamquaile@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/adamquaile/behat-command-runner-extension/issues"
+    }
+}
