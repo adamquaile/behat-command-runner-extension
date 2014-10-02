@@ -17,6 +17,9 @@
             "email": "adamquaile@gmail.com"
         }
     ],
+    "config": {
+        "bin-dir": "bin/"
+    },
     "support": {
         "issues": "https://github.com/adamquaile/behat-command-runner-extension/issues"
     }
