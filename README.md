@@ -1,5 +1,7 @@
 # Behat Command Runner extension
 
+*This is a proof-of-concept - use with caution!*
+
 Extension to run commands at hooks in test lifecycle, useful for cache clearing, 
 database setup, teardown, etc...
 
