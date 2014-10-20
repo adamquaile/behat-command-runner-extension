@@ -101,7 +101,7 @@ class CommandRunnerSubscriber implements EventSubscriberInterface
 
     public function beforeFeature()
     {
-        $this->setupProcessesForHook('beforeSuite');
+        $this->setupProcessesForHook('beforeFeature');
     }
 
     public function afterFeature()
@@ -123,6 +123,7 @@ class CommandRunnerSubscriber implements EventSubscriberInterface
 
     public static function getSubscribedEvents()
     {
+
         return array(
             BeforeSuiteTested::BEFORE   => 'beforeSuite',
             BeforeSuiteTeardown::AFTER  => 'afterSuite',
