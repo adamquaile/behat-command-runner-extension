@@ -81,7 +81,9 @@ class CommandRunnerSubscriber implements EventSubscriberInterface
      */
     private function buildProcess($command)
     {
-        return new Process($command);
+        $arrayCommand = array_filter( explode(" ", $command) );
+
+        return new Process($arrayCommand);
     }
 
     public function beforeSuite()
