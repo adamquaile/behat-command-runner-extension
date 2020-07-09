@@ -9,7 +9,7 @@
     },
     "require": {
         "behat/behat": "~3.0",
-        "symfony/process": "*"
+        "symfony/process": ">=2 <6"
     },
     "authors": [
         {
