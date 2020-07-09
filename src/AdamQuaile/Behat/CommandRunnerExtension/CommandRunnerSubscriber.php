@@ -81,7 +81,7 @@ class CommandRunnerSubscriber implements EventSubscriberInterface
      */
     private function buildProcess($command)
     {
-        return new Process($command);
+        return Process::fromShellCommandline($command);
     }
 
     public function beforeSuite()
